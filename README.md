@@ -12,16 +12,16 @@ https://www.jetbrains.com/es-es/pycharm/download/#section=linux
 
 4. after the installation is done, add the path of the installation to the 
 PATH enviroment variable, doing one of the options bellow.
-	- Using the export command this\n 
-		$ export PATH=$PATH:/path/to/dir\n
-		$ source ~/.profile or source ~/.bashrc\n 
-	-Editing the enviroment file\n
-		 $ nano /etc/enviroment\n
-		 $ PATH="[original path is here]:home/pycharm/bin"\n 
-		 $ source ~/.profile or source ~/.bashrc\n
-		 $ source /etc/environment\n
+	- Using the export command this 
+		$ export PATH=$PATH:/path/to/dir
+		$ source ~/.profile or source ~/.bashrc 
+	-Editing the enviroment file
+		 $ nano /etc/enviroment
+		 $ PATH="[original path is here]:home/pycharm/bin" 
+		 $ source ~/.profile or source ~/.bashrc
+		 $ source /etc/environment
 
-5. create a symbolic link\n
-	-Follow the bellow steps\n
-		$ cd /usr/bin\n
+5. create a symbolic link
+	-Follow the bellow steps
+		$ cd /usr/bin
 		$ sudo ln -s /path/to/binary/pycharm.sh pycharm
