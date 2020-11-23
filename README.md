@@ -13,7 +13,7 @@ https://www.jetbrains.com/es-es/pycharm/download/#section=linux
 4. after the installation is done, add the path of the installation to the 
 PATH enviroment variable, doing one of the options bellow.
 	- Using the export command this 
-		$ export PATH=$PATH:/path/to/dir 
+		$ export PATH=$PATH:/path/to/dir\n
 		$ source ~/.profile or source ~/.bashrc 
 	-Editing the enviroment file
 		 $ nano /etc/enviroment
