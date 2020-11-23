@@ -1,20 +1,21 @@
 # 100_Days_of_code
-pycharm installation steps in ubuntu 16+
+
+### Installations
+pycharm installation steps in ubuntu 16+.
 
 0. Dowload the instalation package.
-https://www.jetbrains.com/es-es/pycharm/download/#section=linux
+[Pychar linux installation](https://www.jetbrains.com/es-es/pycharm/download/#section=linux)
 
 1. unzip the file.
 
 2. go to the bin folder inside of the unzip folder.
 
-3. run the bellow script
+3. run the bellow script.
 ```bash
 $ ./pychram.sh file.
 ```
-4. after the installation is done, add the path of the installation to the 
-PATH enviroment variable, doing one of the options bellow.
-	- Using the export command this 
+4. after the installation is done, add the path of the installation to the PATH enviroment variable, doing one of the options bellow.
+	-Using the export command this 
 	```bash
 	$ export PATH=$PATH:/path/to/dir
 	$ source ~/.profile or source ~/.bashrc
