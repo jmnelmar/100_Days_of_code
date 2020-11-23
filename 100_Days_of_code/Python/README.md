@@ -33,3 +33,7 @@ $ ./pychram.sh file.
 	$ cd /usr/bin
 	$ sudo ln -s /path/to/binary/pycharm.sh pycharm
 	```
+> how to run 
+```bash
+$ pycharm
+```
