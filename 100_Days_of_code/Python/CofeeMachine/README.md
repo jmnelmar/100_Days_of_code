@@ -1,10 +1,10 @@
-### Cofee Machine Project.
+# Cofee Machine Project.
 
 ## Project 15 of 100 days coding with python.
 
 The project simulate the interface of a cofee vendor machine
 
-# How to use.
+## How to use.
 ```bash
 $ ./CofeeMachine.py
 What would you like? (espresso/latte/cappuccino): espresso
@@ -19,6 +19,6 @@ Here is your espresso ☕. Enjoy!
 ```
 
 >>> Menu.
->>> espresso: $1.5
->>> late: $2.5
->>> cappuccino: $3.0
+espresso: $1.5.
+late: $2.5.
+cappuccino: $3.0.
