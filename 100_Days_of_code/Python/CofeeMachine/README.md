@@ -1,10 +1,10 @@
 ### Cofee Machine Project.
 
-# Project 15 of 100 days coding with python.
+## Project 15 of 100 days coding with python.
 
 The project simulate the interface of a cofee vendor machine
 
-> How to use.
+# How to use.
 '''bash
 $ ./CofeeMachine.py
 What would you like? (espresso/latte/cappuccino): espresso
