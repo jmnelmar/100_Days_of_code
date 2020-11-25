@@ -18,7 +18,7 @@ Cost: 1.5, Having: 1.5
 Here is your espresso ☕. Enjoy!
 ```
 
->>> Menu.
+> Menu.
 espresso: $1.5.
 late: $2.5.
 cappuccino: $3.0.
