@@ -5,7 +5,7 @@
 The project simulate the interface of a cofee vendor machine
 
 # How to use.
-'''bash
+```bash
 $ ./CofeeMachine.py
 What would you like? (espresso/latte/cappuccino): espresso
 What would you like? (espresso/latte/cappuccino): espresso
@@ -16,7 +16,7 @@ How many nickel?: 0
 How many penny?: 0
 Cost: 1.5, Having: 1.5
 Here is your espresso ☕. Enjoy!
-'''
+```
 
 >>> Menu.
 >>> espresso: $1.5
