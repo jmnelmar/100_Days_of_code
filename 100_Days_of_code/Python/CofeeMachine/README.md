@@ -8,7 +8,6 @@ The project simulate the interface of a cofee vendor machine
 ```bash
 $ ./CofeeMachine.py
 What would you like? (espresso/latte/cappuccino): espresso
-What would you like? (espresso/latte/cappuccino): espresso
 Please insert coins.
 How many quarter?: 6
 How many dime?: 0
