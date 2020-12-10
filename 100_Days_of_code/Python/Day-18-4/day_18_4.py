@@ -11,6 +11,7 @@ def change_color(tim):
     G = random.random()
     tim.color(R, G, B)
 
+tim.width(5)
 for i in range (1,100):
   angle = random.randint(1,4) * 90
   tim.left(angle)
