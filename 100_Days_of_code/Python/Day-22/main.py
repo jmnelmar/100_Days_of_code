@@ -23,12 +23,13 @@ screen.onkey(l_paddle.go_down,"s")
 
 game_is_on = True
 ball = Ball(0,0)
-time.sleep(0.05)
+
 
 score = Score()
 
 while game_is_on:  
     game_is_on = ball.collisions([l_paddle, r_paddle], score)
+    time.sleep(0.01)
     ball.goto(ball.xcor()+ball.x_speed, ball.ycor()+ball.y_speed)
     screen.update()
     score.print_score();
