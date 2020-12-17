@@ -1,5 +1,5 @@
 from car import Car, MOVE_INCREMENT
-MAX_NUMBER_OF_CARS = 25
+MAX_NUMBER_OF_CARS = 15
 
 class CarManager:
     def __init__(self):
@@ -8,7 +8,7 @@ class CarManager:
 
     
     def init_cars(self):
-        for i in range( 0,  MAX_NUMBER_OF_CARS + 1):
+        for i in range( 0,  MAX_NUMBER_OF_CARS ):
             car = Car()
             self.cars.append(car)
             

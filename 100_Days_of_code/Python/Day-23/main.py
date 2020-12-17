@@ -5,7 +5,7 @@ from player import Player
 from scoreboard import Scoreboard
 from player import Player, FINISH_LINE_Y
 from scoreboard import Scoreboard
-from car_manager import CarManager
+from car_manager import CarManager, MAX_NUMBER_OF_CARS
 
 screen = Screen()
 screen.setup(width=600, height=600)
@@ -30,6 +30,7 @@ while game_is_on:
         player.reset()
         level.level += 1
         car_manager.increase_speed()
+        MAX_NUMBER_OF_CARS += 2
     screen.update()
 
 level.print_game_over()
