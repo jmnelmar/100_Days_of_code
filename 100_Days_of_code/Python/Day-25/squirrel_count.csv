@@ -1,4 +1,18 @@
-,Fur Color,Count
-0,Gray,2473
-1,Black,103
-2,Cinnamon,392
+Black,Cinnamon,15
+Black,"Cinnamon, White",3
+Black,Gray,8
+Black,"Gray, White",1
+Black,White,2
+Cinnamon,Black,10
+Cinnamon,"Black, White",3
+Cinnamon,Gray,162
+Cinnamon,"Gray, Black",3
+Cinnamon,"Gray, White",58
+Cinnamon,White,94
+Gray,Black,24
+Gray,"Black, Cinnamon",9
+Gray,"Black, Cinnamon, White",32
+Gray,"Black, White",7
+Gray,Cinnamon,752
+Gray,"Cinnamon, White",265
+Gray,White,489
