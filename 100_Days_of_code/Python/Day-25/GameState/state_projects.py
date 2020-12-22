@@ -13,7 +13,7 @@ screen.addshape(image)
 turtle.shape(image)
 answer = ""
 points = 0
-
+is_game_on = True
 
 
 def print_name(x,y,state):
@@ -36,17 +36,16 @@ def get_mouse_click_coor(x,y):
     
     
     if not serie.empty:
+        points = points +1
         corx =  int(serie.x) 
         cory = int(serie.y)
-        state = serie.values[0][0]
-       
-        points = get_points(points,1) 
-        print_name(corx,cory,state)
-       
+        state = serie.values[0][0] 
+        print_name(corx,cory,state)     
     else:
         print("not ok")
+        points = points
 
-
+    
 
 
 turtle.onscreenclick(get_mouse_click_coor)
