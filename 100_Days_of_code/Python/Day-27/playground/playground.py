@@ -31,3 +31,35 @@ print(my_car.make)
 
 my_car = Car(make="Nissan")
 print(my_car.model)
+
+import tkinter
+
+window = tkinter.Tk()
+window.title("My First GUI Program in python")
+window.minsize(width=500, height=300)
+
+#Label
+
+my_label = tkinter.Label(text="I am a Label", font=("Arial",24,"bold"))
+#my_label.pack(side="left")#
+my_label.pack()
+
+my_label["text"] = "New Text"
+my_label.config(text="New Text")
+
+def button_clicked():
+    print("I got clicked")
+
+#Button
+button = tkinter.Button(text="Click Me", command=button_clicked)
+button.pack()
+
+
+
+
+
+
+
+
+window.mainloop()
+
