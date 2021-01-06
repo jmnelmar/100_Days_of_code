@@ -24,7 +24,7 @@ score = ScoreBoard()
 
 with open("high_score.txt") as file:
     score.high_score = int(file.read())
-    score.refresh(1)
+    score.refresh(1) 
 
 
 while snake.game_is_on:
