@@ -1,3 +1,5 @@
+# widget tutorial
+# https://wiki.wxpython.org/Getting%20Started#Windows_or_Frames.3F
 import wx
 from wx.core import Size
 
