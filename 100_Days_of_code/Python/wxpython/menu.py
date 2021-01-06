@@ -1,3 +1,5 @@
+# list of events
+# https://wiki.wxpython.org/ListOfEvents
 import wx
 
 class MainWindow(wx.Frame):
@@ -10,7 +12,8 @@ class MainWindow(wx.Frame):
         filemenu= wx.Menu()
 
         # wx.ID_ABOUT and wx.ID_EXIT are standard IDs provided by wxWidgets.
-        filemenu.Append(wx.ID_ABOUT, "&About"," Information about this program")
+        menuItem = filemenu.Append(wx.ID_ABOUT, "&About"," Information about this program")
+        self.Bind(wx.EVT_MENU, self.OnAbout, menuItem)
         filemenu.AppendSeparator()
         filemenu.Append(wx.ID_EXIT,"E&xit"," Terminate the program")
 
@@ -19,6 +22,10 @@ class MainWindow(wx.Frame):
         menuBar.Append(filemenu,"&File") # Adding the "filemenu" to the MenuBar
         self.SetMenuBar(menuBar)  # Adding the MenuBar to the Frame content.
         self.Show(True)
+
+    def OnAbout(self, event):
+        print("You clicked in About")
+        print(event)
 
 app = wx.App(False)
 frame = MainWindow(None, "Sample editor")
