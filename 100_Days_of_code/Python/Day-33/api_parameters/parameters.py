@@ -14,6 +14,6 @@ response.raise_for_status()
 data = response.json()
 sunrise = data["results"]["sunrise"].split("T")[1].split(":")[0]
 sunset = data["results"]["sunset"].split("T")[1].split(":")[0]
-print(f'sunrise: {sunrise}, sunset: {sunset}')
+print(f'sunrise: {sunrise}, sunset: {sunset}, our_no:{time_now.hour}')
 time_now = datetime.now()
-print(time_now.hour)
+print()
