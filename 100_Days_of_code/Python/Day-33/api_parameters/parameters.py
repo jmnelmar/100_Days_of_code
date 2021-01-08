@@ -16,5 +16,3 @@ sunrise = data["results"]["sunrise"].split("T")[1].split(":")[0]
 sunset = data["results"]["sunset"].split("T")[1].split(":")[0]
 time_now = datetime.now()
 print(f'sunrise: {sunrise}, sunset: {sunset}, our_no:{time_now.hour}')
-
-print()
