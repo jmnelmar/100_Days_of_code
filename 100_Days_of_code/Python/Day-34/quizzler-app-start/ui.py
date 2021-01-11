@@ -38,10 +38,14 @@ class QuizInterface:
 
         self.window.mainloop()
 
+    def get_score(self):
+        self.score_label.config(text=f"Score: {self.quiz.score}")
+
     def get_next_question(self):
         if self.quiz.still_has_questions():
             q_text = self.quiz.next_question()
             self.canvas.itemconfig(self.question_text, text=q_text)
+            self.get_score()
 
     def true_pressed(self):
         self.quiz.check_answer("True")
