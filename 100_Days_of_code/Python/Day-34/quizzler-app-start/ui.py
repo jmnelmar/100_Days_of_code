@@ -39,11 +39,14 @@ class QuizInterface:
         self.window.mainloop()
 
     def get_next_question(self):
-        q_text = self.quiz.next_question()
-        self.canvas.itemconfig(self.question_text, text=q_text)
+        if self.quiz.still_has_questions():
+            q_text = self.quiz.next_question()
+            self.canvas.itemconfig(self.question_text, text=q_text)
 
     def true_pressed(self):
         self.quiz.check_answer("True")
+        self.get_next_question()
 
     def false_pressed(self):
         self.quiz.check_answer("False")
+        self.get_next_question()
