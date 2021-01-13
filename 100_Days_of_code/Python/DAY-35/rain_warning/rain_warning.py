@@ -32,8 +32,8 @@ rain_codes = [
 
 
 members ={
-    "lat":33.441792,
-    "lon":-94.037689,
+    "lat":1.28333,
+    "lon":103.85,
     "exclude":"current,minutely,daily,alerts",
     "appid":"8682a293fbd0d9c0c576f644784d429a"
 }
@@ -41,14 +41,14 @@ members ={
 response = requests.get("https://api.openweathermap.org/data/2.5/onecall",members)
 response.raise_for_status()
 data = response.json()["hourly"]
-
+is_gonna_rain = False
 for index in range(0,11):
     weather = data[index]["weather"]
     
     if weather[0]["id"] in rain_codes:
-        print("carry in your umbrella it's going to rain today")
-    else:
-        print(weather[0]["description"])
+        is_gonna_rain = True
         break
+if is_gonna_rain == True:
+    print("Carry your umbrella it's going to rain today ☂️")
     #print(weather["id"])
 #print(data)

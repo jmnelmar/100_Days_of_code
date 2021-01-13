@@ -1,0 +1,7 @@
+#/bin/bash
+TWILIO_ACCOUNT_SID='account sid'
+TWILIO_AUTH_TOKEN='token '
+export TWILIO_ACCOUNT_SID
+echo 'TWILIO_ACCOUNT_SID set.'
+export TWILIO_AUTH_TOKEN
+echo 'TWILIO_AUTH_TOKEN set'
