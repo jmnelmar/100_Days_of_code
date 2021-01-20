@@ -9,3 +9,7 @@ hr{
     border-width: 5px;
     width: 5%;
 }
+
+h3,h2,h1{
+    color: #66bfbf;
+}
