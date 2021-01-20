@@ -1,0 +1,31 @@
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference*/
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Reference*/
+/*******************************Tag Selector******************/
+h1{
+    color: red;
+    font-size: 200px;
+}
+
+
+img:hover{
+    background-color: gold;
+}
+
+/************** Class Selectors************************/
+.bacon {
+    background-color: green;
+}
+
+.broccoli{
+    background-color: red;
+}
+
+.circular{
+    border-radius: 50%;
+}
+
+/*********************ID Selectors***********************/
+
+#heading{
+    color: blue;
+}
