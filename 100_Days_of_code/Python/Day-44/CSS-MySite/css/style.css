@@ -6,9 +6,19 @@ h1{
     margin-top: 0;
 }
 
-div{
-    
+.top-container{
     background-color: #E4F9F5;
     margin: 0;
 }
 
+.middle-container{
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
