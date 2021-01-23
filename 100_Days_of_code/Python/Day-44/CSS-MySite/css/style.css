@@ -1,10 +1,12 @@
 body{
     margin: 0;
     text-align: center; /*centrar elementos*/
+    font-family: "Merriweather",verdana ,sans-serif;
 }
 
 h1{
     margin-top: 0;
+    font-family: "Sacramento",verdana ,sans-serif;
     /*margin: 0 auto;*/ /*centrar texto*/
 }
 
