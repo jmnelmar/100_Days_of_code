@@ -5,11 +5,29 @@ body{
     font-size: 20px;
 }
 
+.subtitle{
+    font-weight: normal;
+    line-height: 2;
+}
+
 h1{
     font-size: 5.62rem;
-    margin-top: 0;
+    margin: 50px auto 0 auto;
     font-family: "Sacramento",verdana ,sans-serif;
     /*margin: 0 auto;*/ /*centrar texto*/
+    color: #66BFBF;
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5 rem;
+    color: #66BFBF;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 .profile_img{
@@ -47,4 +65,8 @@ h1{
     position: absolute;
     left:30%;
     bottom: 40%;
+}
+
+a{
+    color: #11999E;
 }
