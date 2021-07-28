@@ -30,6 +30,23 @@ h3{
     color: #11999E;
 }
 
+.skills{
+    
+}
+
+.skill-row{
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row > img{
+    width: 25%;
+    float: left;
+    padding-right: 30px;;
+}
+
 .profile_img{
     width: 200px;
     height: 200px;
